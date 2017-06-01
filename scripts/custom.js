@@ -124,10 +124,182 @@ models["Shields"] = [[
    { from: 25,                to: 26,                ingredients: ['30x Lump of Dark Matter', '100x Demonic Essence', '3x Distorded Lump of Darkness' ] }
  ]];
 
+ models["Armors"] = [[
+  { key: 1,    text: "Leather Jacket",                   color: "#0B242D",  img: "images/Leather_Jacket.gif" },
+  { key: 2,    text: "Leather Brigandine",               color: "#0B242D",  img: "images/Leather_Brigandine.gif" },
+  { key: 3,    text: "Raincoat",                         color: "#0B242D",  img: "images/Raincoat.gif" },
+  { key: 4,    text: "Red Robe",                         color: "#0B242D",  img: "images/Red_Robe.gif" },
+  { key: 5,    text: "Green Tunic",                      color: "#0B242D",  img: "images/Green_Tunic.gif" },
+  { key: 6,    text: "Red Tunic",                        color: "#0B242D",  img: "images/Red_Tunic.gif" },
+  { key: 7,    text: "Mage's Robe",                      color: "#0B242D",  img: "images/Mage's_Robe.gif" },
+  { key: 8,    text: "Tight Red Beater",                 color: "#0B242D",  img: "images/Tight_Red_Beater.gif" },
+  { key: 9,    text: "Hunter Coat",                      color: "#0B242D",  img: "images/Hunter_Coat.gif" },
+  { key: 10,   text: "Blue Cape",                        color: "#0B242D",  img: "images/Blue_Cape.gif" },
+  { key: 11,   text: "Valquinor Gown",                   color: "#0B242D",  img: "images/Valquinor_Gown.gif" },
+  { key: 12,   text: "Solemn Dress",                     color: "#0B242D",  img: "images/Solemn_Dress.gif" },
+  { key: 13,   text: "Studded Oak-wood Armor",           color: "#0B242D",  img: "images/Studded_Oak-wood_Armor.gif" },
+  { key: 14,   text: "Ranger Armor",                     color: "#0B242D",  img: "images/Ranger_Armor.gif" },
+  { key: 15,   text: "Saphid Doublet of Caretaking",     color: "#0B242D",  img: "images/Saphid_Doublet_of_Caretaking.gif" },
+  { key: 16,   text: "Saphid Doublet of Furor",          color: "#0B242D",  img: "images/Saphid_Doublet_of_Furor.gif" },
+  { key: 17,   text: "Lovely Dress",                     color: "#0B242D",  img: "images/Lovely_Dress.gif" },
+  { key: 18,   text: "Seal-belt Sash",                   color: "#0B242D",  img: "images/Seal-belt_Sash.gif" },
+  { key: 19,   text: "Lead-belt Bucklestrap",            color: "#0B242D",  img: "images/Lead-belt_Bucklestrap.gif" },
+  { key: 20,   text: "Chain Mail",                       color: "#0B242D",  img: "images/Chain_Mail.gif" },
+  { key: 22,   text: "Majestic Red Coat",                color: "#0B242D",  img: "images/Majestic_Red_Coat.gif" },
+  { key: 23,   text: "Death Robe",                       color: "#0B242D",  img: "images/Death_Robe.gif" },
+  { key: 25,   text: "Golden Chain Mail",                color: "#0B242D",  img: "images/Golden_Chain_Mail.gif" },
+  { key: 26,   text: "Chain Armor",                      color: "#0B242D",  img: "images/Chain_Armor.gif" },
+  { key: 27,   text: "Brown Torso Piece",                color: "#0B242D",  img: "images/Brown_Torso_Piece.gif" },
+  { key: 28,   text: "Caster Robe",                      color: "#0B242D",  img: "images/Caster_Robe.gif" },
+  { key: 29,   text: "Brown Armor",                      color: "#0B242D",  img: "images/Brown_Armor.gif" },
+  { key: 30,   text: "Heavy Metal-chain Armor",          color: "#0B242D",  img: "images/Heavy_Metal-chain_Armor.gif" },
+  { key: 31,   text: "Brown-steel Armor",                color: "#0B242D",  img: "images/Brown-steel_Armor.gif" },
+  { key: 32,   text: "Furry Cape",                       color: "#0B242D",  img: "images/Furry_Cape.gif" },
+  { key: 33,   text: "Witherearth Cape",                 color: "#0B242D",  img: "images/Witherearth_Cape.gif" },
+  { key: 36,   text: "Elvish Brocade Armor",             color: "#0B242D",  img: "images/Elvish_Brocade_Armor.gif" },
+  { key: 37,   text: "Earthplate Armor",                 color: "#0B242D",  img: "images/Earthplate_Armor.gif" },
+  { key: 38,   text: "Robe of the Lakes",                color: "#0B242D",  img: "images/Robe_of_the_Lakes.gif" },
+  { key: 39,   text: "Marquis Cloak",                    color: "#0B242D",  img: "images/Marquis_Cloak.gif" },
+  { key: 40,   text: "Belted Cape",                      color: "#0B242D",  img: "images/Belted_Cape.gif" },
+  { key: 41,   text: "Robe of Furor",                    color: "#0B242D",  img: "images/Robe_of_Furor.gif" },
+  { key: 42,   text: "Bloodred Mail",                    color: "#0B242D",  img: "images/Bloodred_Mail.gif" },
+  { key: 43,   text: "Amour Robe",                       color: "#0B242D",  img: "images/Amour_Robe.gif" },
+  { key: 44,   text: "Prince Armor",                     color: "#0B242D",  img: "images/Prince_Armor.gif" },
+  { key: 45,   text: "Scavenger Coat",                   color: "#0B242D",  img: "images/Scavenger_Coat.gif" },
+  { key: 46,   text: "Lightning Robe",                   color: "#0B242D",  img: "images/Lightning_Robe.gif" },
+  { key: 47,   text: "Magma Coat",                       color: "#0B242D",  img: "images/Magma_Coat.gif" },
+  { key: 48,   text: "Glacier Robe",                     color: "#0B242D",  img: "images/Glacier_Robe.gif" },
+  { key: 49,   text: "Terra Mantle",                     color: "#0B242D",  img: "images/Terra_Mantle.gif" },
+  { key: 50,   text: "Robe of Clarity",                  color: "#0B242D",  img: "images/Robe_of_Clarity.gif" },
+  { key: 51,   text: "Fur Plate",                        color: "#0B242D",  img: "images/Fur_Plate.gif" },
+  { key: 52,   text: "Dark Armor",                       color: "#0B242D",  img: "images/Dark_Armor.gif" },
+  { key: 53,   text: "Greenscale Armor",                 color: "#0B242D",  img: "images/Greenscale_Armor.gif" },
+  { key: 54,   text: "Torturescale Cloak",               color: "#0B242D",  img: "images/Torturescale_Cloak.gif" },
+  { key: 55,   text: "Earthplate Guardian",              color: "#0B242D",  img: "images/Earthplate_Guardian.gif" },
+  { key: 56,   text: "Rubidian Robe",                    color: "#0B242D",  img: "images/Rubidian_Robe.gif" },
+  { key: 57,   text: "Velvet Mantle",                    color: "#0B242D",  img: "images/Velvet_Mantle.gif" },
+  { key: 58,   text: "Black Plate Armor",                color: "#0B242D",  img: "images/Black_Plate_Armor.gif" },
+  { key: 59,   text: "Ultimate Furian Armor",            color: "#0B242D",  img: "images/Ultimate_Furian_Armor.gif" },
+  { key: 60,   text: "Bloodforged Valor Armor",          color: "#0B242D",  img: "images/Bloodforged_Valor_Armor.gif" },
+  { key: 61,   text: "Great Forestlurker Coat",          color: "#0B242D",  img: "images/Great_Forestlurker_Coat.gif" },
+  { key: 62,   text: "Steelfighter Tank",                color: "#0B242D",  img: "images/Steelfighter_Tank.gif" },
+  { key: 63,   text: "Deathbringer Cape",                color: "#0B242D",  img: "images/Deathbringer_Cape.gif" },
+  { key: 64,   text: "Sharpeye Armor",                   color: "#0B242D",  img: "images/Sharpeye_Armor.gif" },
+  { key: 65,   text: "Oceanlord Robe",                   color: "#0B242D",  img: "images/Oceanlord_Robe.gif" },
+  { key: 66,   text: "Swiftlord Mantle",                 color: "#0B242D",  img: "images/Swiftlord_Mantle.gif" },
+  { key: 67,   text: "Full Metal Plate",                 color: "#0B242D",  img: "images/Full_Metal_Plate.gif" },
+  { key: 68,   text: "Devious Armor",                    color: "#0B242D",  img: "images/Devious_Armor.gif" },
+  { key: 69,   text: "Scaled Earthplate Guardian",       color: "#0B242D",  img: "images/Scaled_Earthplate_Guardian.gif" },
+  { key: 70,   text: "Greyshade Armor",                  color: "#0B242D",  img: "images/Greyshade_Armor.gif" },
+  { key: 71,   text: "Dragon Robe",                      color: "#0B242D",  img: "images/Dragon_Robe.gif" },
+  { key: 72,   text: "Titansteel Armor",                 color: "#0B242D",  img: "images/Titansteel_Armor.gif" },
+  { key: 73,   text: "Marksman Cape",                    color: "#0B242D",  img: "images/Marksman_Cape.gif" },
+  { key: 74,   text: "Dark Ravenfeather Dress",          color: "#0B242D",  img: "images/Dark_Ravenfeather_Dress.gif" },
+  { key: 75,   text: "Skullbelted Necromant Robe",       color: "#0B242D",  img: "images/Skullbelted_Necromant_Robe.gif" },
+  { key: 76,   text: "Neorobe of the Elven Realms",      color: "#0B242D",  img: "images/Neorobe_of_the_Elven_Realms.gif" },
+  { key: 77,   text: "Dreadskull Plate",                 color: "#0B242D",  img: "images/Dreadskull_Plate.gif" },
+  { key: 78,   text: "Dragon Scale Mail",                color: "#0B242D",  img: "images/Dragon_Scale_Mail.gif" },
+  { key: 79,   text: "Magma Titan Armor",                color: "#0B242D",  img: "images/Magma_Titan_Armor.gif" },
+  { key: 80,   text: "Bloodbone Cape",                   color: "#0B242D",  img: "images/Bloodbone_Cape.gif" },
+  { key: 81,   text: "Dark Champion Armor",              color: "#0B242D",  img: "images/Dark_Champion_Armor.gif" },
+  { key: 82,   text: "Sniper Cape",                      color: "#0B242D",  img: "images/Sniper_Cape.gif" },
+  { key: 83,   text: "Dreadprince Armor",                color: "#0B242D",  img: "images/Dreadprince_Armor.gif" },
+  { key: 84,   text: "Dreadskull Cape",                  color: "#0B242D",  img: "images/Dreadskull_Cape.gif" },
+  { key: 85,   text: "Wingardium Armor",                 color: "#0B242D",  img: "images/Wingardium_Armor.gif" },
+  { key: 86,   text: "Nightmare Armor",                  color: "#0B242D",  img: "images/Nightmare_Armor.gif" },
+  { key: 90,   text: "Furian Armor",                     color: "#0B242D",  img: "images/Furian_Armor.gif" }
+ ],[
+  { from: 1,                  to: 2,                 ingredients: ['2x Brown Piece of Cloth', '2x String'] },
+  { from: 1,                  to: 3,                 ingredients: ['3x Blue Piece of Cloth'] },
+  { from: 1,                  to: 4,                 ingredients: ['5x Red Piece of Cloth', '2x Crab Pincers'] },
+  { from: 1,                  to: 5,                 ingredients: ['4x Green Piece of Cloth', '3x Soft Green Leather'] },
+  { from: 1,                  to: 6,                 ingredients: ['5x Red Piece of Cloth', '2x String'] },
+  { from: 2,                  to: 7,                 ingredients: ['4x Red Enchanting Dust', '5x Red Piece of Cloth'] },
+  { from: 4,                  to: 8,                 ingredients: ['3x Bunch of Red Hair', '5x Red Piece of Cloth', '4x Bloody Pincer'] },
+  { from: 3,                  to: 9,                 ingredients: ['3x Soft Green Leather', '3x Brown Piece of Cloth'] },
+  { from: 2,                  to: 10,                ingredients: ['4x Blue Enchanting Dust', '5x Blue Piece of Cloth'] },
+  { from: 5,                  to: 11,                ingredients: ['9x Green Piece of Cloth', '3x Small Tissue', '4x Green Contour Feather'] },
+  { from: 2,                  to: 12,                ingredients: ['10x White Feather', '5x White Piece of Cloth', '4x Spider Silk'] },
+  { from: 2,                  to: 13,                ingredients: ['4x Iron Ore', '4x Metal Ore', '5x Brown Firm Wood'] },
+  { from: 9,                  to: 14,                ingredients: ['5x Green Contour Feather', '15x Piece of Steel', '8x Rough Branch', '13x Fang'] },
+  { from: 10,                 to: 15,                ingredients: ['3x Blue Enchanting Dust', '5x Blue Piece of Cloth', '1x Small Sapphire'] },
+  { from: 7,                  to: 16,                ingredients: ['3x Red Enchanting Dust', '2x Yellow Piece of Cloth', '1x Small Sapphire', '3x Red Piece of Cloth'] },
+  { from: 2,                  to: 17,                ingredients: ['4x Red Piece of Cloth', '15x String', '2x Wool'] },
+  { from: 9,                  to: 18,                ingredients: ['4x Brassy Ore', '6x String'] },
+  { from: 13,                 to: 19,                ingredients: ['2x Heavier Stone', '7x Tarnite Ore'] },
+  { from: 9,                  to: 20,                ingredients: ['3x Metal Twist'] },
+  { from: 13,                 to: 20,                ingredients: ['3x Metal Twist'] },
+  { from: 6,                  to: 22,                ingredients: ['30x Brown Piece of Cloth', '5x Crimson Red Feather', '8x Acorn', '15x Striped Fur'] },
+  { from: 7,                  to: 23,                ingredients: ['15x Stack of Dark Hair', '20x Fur', '2x Skull'] },
+  { from: 10,                 to: 23,                ingredients: ['15x Stack of Dark Hair', '20x Fur', '2x Skull'] },
+  { from: 20,                 to: 25,                ingredients: ['3x Gold Ingot'] },
+  { from: 20,                 to: 26,                ingredients: ['6x Brassy Ore', '3x String', '2x Metal Twist'] },
+  { from: 19,                 to: 27,                ingredients: ['10x Iron Ore', '8x Brown Piece of Cloth'] },
+  { from: 12,                 to: 28,                ingredients: ['3x Sapphire (1)', '9x Blue Piece of Cloth', '5x Blue Enchanting Dust'] },
+  { from: 27,                 to: 29,                ingredients: ['2x Brown Piece of Cloth', '2x Piece of Shoulder Armor', '8x Metal Ore'] },
+  { from: 26,                 to: 30,                ingredients: ['4x Metal Twist', '2x String', '3x Metal Spike'] },
+  { from: 29,                 to: 31,                ingredients: ['5x Brown Piece of Cloth', '3x Metal Spike', '6x Metal Ore', '4x String'] },
+  { from: 13,                 to: 32,                ingredients: ['20x Bunch of Brown Hair', '5x String', '25x Brown Fur', '3x Warmfur Pelt'] },
+  { from: 16,                 to: 33,                ingredients: ['1x Yellow Tapestry', '20x River Plant Leaf', '25x Swamp Grass'] },
+  { from: 15,                 to: 33,                ingredients: ['1x Yellow Tapestry', '20x River Plant Leaf', '25x Swamp Grass'] },
+  { from: 9,                  to: 33,                ingredients: ['1x Yellow Tapestry', '20x River Plant Leaf', '25x Swamp Grass'] },
+  { from: 14,                 to: 36,                ingredients: ['30x Brown Leather', '40x Green Piece of Cloth', '1x Gold Ingot', '10x Bola', '10x Green Contour Feather'] },
+  { from: 19,                 to: 37,                ingredients: ['40x Brassy Ore', '10x Pale Wood', '15x Lump of Earth'] },
+  { from: 15,                 to: 38,                ingredients: ['1x Rubinite Ore', '10x Small Tissue', '20x Essence of Wonder', '30x Stack of Dark Hair'] },
+  { from: 23,                 to: 39,                ingredients: ['5x Spool of Yarn', '25x Lump of Dark Matter', '20x Tarnite Ore', '5x Bola'] },
+  { from: 32,                 to: 40,                ingredients: ['10x Warmfur Pelt', '1x Orange Tapestry', '25x Yellow Piece of Cloth', '25x Piece of Shoulder Armor'] },
+  { from: 16,                 to: 41,                ingredients: ['5x Rubinite Ore', '30x Red Piece of Cloth', '40x Bunch of Red Hair', '20x Bloody Pincer'] },
+  { from: 8,                  to: 42,                ingredients: ['2x Rubinite Ore', '5x Red Piece of Cloth', '15x Bunch of Red Hair', '14x Kalemyte Ore'] },
+  { from: 17,                 to: 43,                ingredients: ['2x Essence of Wonder', '22x Red Piece of Cloth', '30x Red Enchanting Dust', '1x Vanan Ore'] },
+  { from: 22,                 to: 44,                ingredients: ['4x Super-polish Dust', '1x Velvet Tapestry', '20x Golden Shoulderplate', '15x Gold Ingot', '40x Mord Ore'] },
+  { from: 36,                 to: 45,                ingredients: ['40x Small Tissue', '10x Brown Fur', '10x Warmfur Pelt', '50x Green Mushroom', '100x Earthcrawlers Insides'] },
+  { from: 28,                 to: 46,                ingredients: ['1x Ultraenergetic Wand', '25x Vanan Ore', '10x Pile of Mana Dust'] },
+  { from: 41,                 to: 47,                ingredients: ['1x Big Flask of Oil', '5x Dust of Hatred', '10x Red Leather', '15x Rubinite Ore', '5x Orymine Ore'] },
+  { from: 28,                 to: 48,                ingredients: ['1x Waterhold Scepter', '1x Shard', '25x Aqualus Ore'] },
+  { from: 33,                 to: 49,                ingredients: ['35x Lump of Earth', '13x Brown Leather', '2x Quimp Ore', '10x Piece of Shoulder Armor'] },
+  { from: 38,                 to: 50,                ingredients: ['15x Aqualus Ore', '35x Arcanic Dust', '20x Blue Piece of Cloth'] },
+  { from: 40,                 to: 51,                ingredients: ['45x Brassy Ore', '100x Bunch of Brown Hair', '30x Striped Fur', '12x Warmfur Pelt'] },
+  { from: 37,                 to: 52,                ingredients: ['10x Lump of Dark Matter', '2x Aulorian Ore', '25x Thorn', '4x Stone Wing'] },
+  { from: 33,                 to: 53,                ingredients: ['40x Green Contour Feather', '25x Green Dragon Scale', '30x Crocodile Leather'] },
+  { from: 39,                 to: 54,                ingredients: ['45x Pelvis Bone', '8x Diamond (1)', '40x Metal Ore Bone Amulet'] },
+  { from: 37,                 to: 55,                ingredients: ['55x Brassy Ore', '75x Iron Ore', '4x Metal Spike', '12x Spiked Shoulderpad'] },
+  { from: 47,                 to: 56,                ingredients: ['1x Red tapestry', '40x Bat Wing', '35x Cursed Growth', '3x Ruby (3)', '15x Striped Fur'] },
+  { from: 43,                 to: 57,                ingredients: ['15x Rubinite Ore', '45x Stack of Dark Hair', '15x Pile of Mana Dust', '15x Essence of Wonder'] },
+  { from: 52,                 to: 58,                ingredients: ['45x Metal Ore', '1x Black Ring', '12x Black Pearl', '3x Distorted Lump of Darkness', '4x Mord Ore'] },
+  { from: 90,                 to: 59,                ingredients: ['10x Super-polish Dust', '80x Piece of Steel', '50x Gold Ingot', '50x Silverine Ore', '100x Kalemyte Ore'] },
+  { from: 42,                 to: 60,                ingredients: ['15x Dust of Hatred', '1x Orymine Ore', '10x Acorn', '30x Rubinite Ore', '8x Red Dragon Scale'] },
+  { from: 45,                 to: 61,                ingredients: ['100x Lump of Earth', '1x Sniper Gloves', '70x Swamp Grass', '18x Piece of Shoulder Armor'] },
+  { from: 58,                 to: 62,                ingredients: ['16x Stone Wing', '1x Fighting Spirit', '11x Mord Ore'] },
+  { from: 54,                 to: 63,                ingredients: ['50x Lump of Dark Matter', '35x Tome of Dark Power', '25x Mord Ore', '50x Spool of Yarn', '15x Gauze Bandage'] },
+  { from: 53,                 to: 64,                ingredients: ['45x Brassy Ore', '50x Lizard Scale', '4x Long Horn', '13x Small Tissue'] },
+  { from: 50,                 to: 65,                ingredients: ['40x Fish Fin', '70x Pile of Mana Dust', '40x Blue Enchanting Dust', '1x Blue Tapestry', '30x Arcanic Dust'] },
+  { from: 49,                 to: 66,                ingredients: ['15x Quimp Ore', '30x Meeple Earflap', '4x Mord Ore', '25x Brown Firm Wood', '50x Brown Leather'] },
+  { from: 30,                 to: 67,                ingredients: ['80x Iron Ore', '100x Metal Ore', '40x Brassy Ore', '20x Piece of Steel', '60x Kalemyte Ore'] },
+  { from: 58,                 to: 68,                ingredients: ['70x Lump of Dark Matter', '90x Dark Mushroom', '18x Mord Ore', '10x Gold Ingot'] },
+  { from: 55,                 to: 69,                ingredients: ['33x Green Dragon Scale', '40x Brassy Ore', '15x Green Leather', '25x Aulorian Ore', '60x Lump of Earth'] },
+  { from: 58,                 to: 70,                ingredients: ['60x Lump of Dark Matter', '40x Piece of Steel', '50x Fur', '1x Blood Ring', '20x Yellow Piece of Cloth', '35x Stack of Dark Hair'] },
+  { from: 56,                 to: 71,                ingredients: ['30x Red Dragon Scale', '50x Green Dragon Scale', '1x Eternal Flames', '1x Firebender Amulet'] },
+  { from: 62,                 to: 72,                ingredients: ['1x Huge Chunk of Crude Iron', '24x Werewolf Fur', '31x Lump of Dark Matter', '15x Mord Ore', '15x Aulorian Ore', '11x Bony Tail'] },
+  { from: 64,                 to: 73,                ingredients: ['40x Shimmering Green Dust', '45x Silverine Ore', '25x Mord Ore', '100x River Plant Leaf', '25x Green Piece of Cloth'] },
+  { from: 70,                 to: 74,                ingredients: ['100x Dark Feather', '5x Bony Tail', '30x Stone Wing', '20x Werewolf Fur', '15x Fur'] },
+  { from: 63,                 to: 75,                ingredients: ['70x Dark Feather', '10x Silverine Ore', '2x Distorted Lump of Darkness', '40x Skull Belt', '20x Book of Necromantic Rituals'] },
+  { from: 65,                 to: 76,                ingredients: ['3x Turquoise (3)', '100x Arcanic Dust', 'Hourglass of the Magi', '10x Gold Ingot', '35x Blue Piece of Cloth', '15x Aulorian Ore', '100x Aqualus Ore'] },
+  { from: 72,                 to: 77,                ingredients: ['1x Black Skull', '1x Relic (1) - DI', '10x Orymine Ore', '30x Skull', '100x Lump of Dark Matter'] },
+  { from: 61,                 to: 78,                ingredients: ['1x Emerald (6)', '30x Gold Ingot', '100x Green Leather', '1x Dragon Egg', '70x Green Dragon Scale'] },
+  { from: 60,                 to: 79,                ingredients: ['1x Magma Amulet', '10x Long Horn', '1x Dragon Claw', '50x Rubinite Ore', '30x Dust of Doom'] },
+  { from: 44,                 to: 80,                ingredients: ['50x Shreds of Red', '20x Spiked Shoulderpad', '30x Dust of Hatred', '15x Dust of Doom', '1x Eltharic Goatskull', '5x Lions Mane'] },
+  { from: 68,                 to: 81,                ingredients: ['30x Lump of Dark Matter', '15x Super-polish Dust', '14x Bony Tail', '20x Gold Ingot', '25x Distorted Lump of Darkness', '20x Spool of Yarn', '5x Behemoth Claw'] },
+  { from: 73,                 to: 82,                ingredients: ['1x Neutral Matter', '40x Soft Green Leather', '100x Handful of Swamp Mucus', '100x Set of Skewered Insect Wings', '15x Orymine Ore'] },
+  { from: 44,                 to: 83,                ingredients: ['100x Cursed Growth', '50x Spiked Shoulderpad', '55x Book of Necromantic Rituals', '25x Distorted Lump of Darkness', '40x Orymine Ore', '70x Scytheblade'] },
+  { from: 63,                 to: 84,                ingredients: ['45x Lump of Dark Matter', '25x Dust of Hatred', '50x Book of Necromantic Rituals', '1x Black Skull', '25x Skull', '10x Orymine Ore'] },
+  { from: 78,                 to: 85,                ingredients: ['1x Ruby (3)', '100x Lizard Scale', '1x Emerald (5)', '100x Crocodile Leather'] },
+  { from: 81,                 to: 86,                ingredients: ['100x Cursed Growth', '100x Spiked Iron Ball', '30x Tome of Dark Power', '100x Lump of Dark Matter', '1x Essence of a Nightmare', '60x Distorted Lump of Darkness', '30x Orymine Ore', '1x Huge Chunk of Crude Iron'] }
+ ]];
+
 
 // Load this model on site entry
-var nodeArray = models["Clubs"][0];
-var linkDataArray = models["Clubs"][1];
+var nodeArray = models["Armors"][0];
+var linkDataArray = models["Armors"][1];
 
 $( document ).ready(function() {
 
@@ -419,19 +591,26 @@ $( document ).ready(function() {
 
   // Return a string representation of a path for humans to read.
   function pathToString(path) {
-    var pathArray = []; // pathArray
-    var pathArrayKey = [];
+    var pathArray = [];
     var s = path.length + ": ";
     for (var i = 0; i < path.length; i++) {
       if (i > 0) s += " -- ";
       s += path.elt(i).data.text;
       pathArray.push({text: path.elt(i).data.text, key:path.elt(i).data.key });
     }
-    getLinkDataBetweenNodes(pathArray);
     return s;
   }
 
+  function pathToArray(path) {
+    var pathArray = [];
+    for (var i = 0; i < path.length; i++) {
+      pathArray.push({text: path.elt(i).data.text, key:path.elt(i).data.key });
+    }
+    getLinkDataBetweenNodes(pathArray);
+  }
+
   function getLinkDataBetweenNodes(array){
+    console.log(array);
     var tempArray = [];
     for (var i = 0; i < array.length - 1; i++) {
       for (var j = 0; j < linkDataArray.length; j++) {
@@ -533,6 +712,7 @@ $( document ).ready(function() {
       var t = path.elt(i + 1);
       f.findLinksTo(t).each(function(l) { l.isHighlighted = true; });
     }
+    pathToArray(path);
   }
 
   function displayIngredientsList(pathArray,linksArray){ // first contain nodes, second links between them
